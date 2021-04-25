@@ -1,49 +1,39 @@
-.background-color {
-    background-color: #0e0f0f17;
-    color: rgb(15, 15, 15), 0, 0;
-    width: 100%
-  }
-
-  /*Footer*/
-  .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgb(85, 85, 85);
-  color: rgb(0, 0, 0), 0, 0);
-  text-align: center
-};
-
-input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+.formContainer {
+  border-radius: 25px;
+  border: 2px solid #121e42;
+  margin-top: -80px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin: 0 auto;
+  width: 60%;
+  height: 650px;
+  background-color: #121e42;
 }
-
-
-input[type=submit] {
-  background-color: #4CAF50;
+.headerJumbo{
+  background: none;
   color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  text-align: center;
 }
-
-
-input[type=submit]:hover {
-  background-color: #45a049;
+.eventForm{
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 25px;
+  border: 2px solid #121e42;
+  background: white;
+  height: 350px;
 }
-
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+.eventName, .eventLink, .eventDate, .eventLocation{
+  width: 160px;
+}
+.eventDescription{
+  width: 320px;
+}
+::placeholder{
+  color: #ed1c24;
+}
+input{
+  border: 1px solid black;
+}
+textarea::placeholder{
+  color: #ed1c24;
 }

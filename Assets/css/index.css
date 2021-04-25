@@ -5,6 +5,17 @@
     width: 100%;
   }
 
+  #jumbotron{
+    align-items: center;
+  }
+
+  #about-me-image{
+    background-image: url(/Assets/Images/homepagepic.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 600px;
+  }
+
 /*Footer*/
   .footer {
     position: fixed;

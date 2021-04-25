@@ -27,7 +27,7 @@
 
  <!--Navbar-->
  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="/Pages/index.html">Vincent J. Hart</a>
+      <a class="navbar-brand" href="C:\Users\Vince_a1mwp20\OneDrive\GitHub\FullStackPortfolio\FullStackPortfolio\index.html">Vincent J. Hart</a>
         <button class="navbar-toggler" 
         data-toggle="collapse" data-target="#navbarSupportedContent" 
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,10 +37,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="/Pages/index.html"> <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="C:\Users\Vince_a1mwp20\OneDrive\GitHub\FullStackPortfolio\FullStackPortfolio\index.html"> <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/Pages/index.html">About</a>
+              <a class="nav-link" href="C:\Users\Vince_a1mwp20\OneDrive\GitHub\FullStackPortfolio\FullStackPortfolio\index.html">About</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="/portfolio.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
@@ -50,26 +50,57 @@
             </li>
           </ul>
     </nav>
-
-<h2>Contact Form</h2>
-
-
-    <label for="contact">Best Contact Method</label>
-    <select id="country" name="contact">
-      <option value="phone">Phone</option>
-      <option value="email">Email</option>
-    </select>
-    <label for="Email">Email</label>
-    <input type="text" id="Email" name="Email" placeholder="Place email address here..">
-    <label for="phonenumber">Phone Number</label>
-    <input type="text" id="phonenumber" name="phonenumber" placeholder="Phone Number">
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-    </form>
-  </div> 
+    
+    <section>
+    <div class="formContainer">
+    <!-- First Outer -->
+    <div class="jumbotron jumbotron-fluid headerJumbo">
+      <div class="container">
+        <h1 class="display-4 headerCreate" style="font-weight: 500;">
+          Contact Form
+        </h1>
+      </div>
+    </div>
+    <div class="jumbotron jumbotron-fluid eventForm"> 
+      <div class="container">
+        <div class="form-group">
+          <div class="row justify-content-center">
+          <div class="col-1"></div>
+          <div class="col-4">
+          <label for="exampleFormControlInput1">Required </label>
+          <input class="eventName" type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+          </div>
+          <div class="col-4">
+          <label for="exampleFormControlInput1">Optional </label>
+          <input class="eventLink" type="link" class="form-control" id="exampleFormControlInput1" placeholder="Phone">
+          </div>
+          <div class="col-1"></div>
+        </div>
+        <div class="row .justify-content-center">
+          <div class="col-1"></div>
+          <div class="col-4">
+          <label for="exampleFormControlInput1">Required </label>
+          <input class="eventDate" type="date" class="form-control" id="exampleFormControlInput1" placeholder="Event Date">
+          </div>
+          <div class="col-4">
+          <label for="exampleFormControlInput1">Optional </label>
+          <input class="eventLocation" type="location" class="form-control" id="exampleFormControlInput1" placeholder="Event Location">
+          </div>
+          <div class="col-1"></div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-2"></div>
+          <div class="col-8">
+            <br>
+            <label for="exampleFormControlTextarea1">Required </label> 
+            <textarea class="form-control eventDescription" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea> 
+          </div>
+          <div class="col-2"></div>
+        </div>
+        </div>
+      </div>
+    </div>
+</section>
 
   <div class="footer">
     <p>Author: Vincent Hart<br>
